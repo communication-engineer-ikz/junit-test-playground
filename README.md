@@ -12,3 +12,4 @@
 1. [Java assertThatメソッドのサンプル 値を比較する(is,not)](<https://itsakura.com/java-assertthat_method#s3>)
 1. [JUnitとHamcrestを一緒に使うには？ - java、junit、hamcrest](<https://living-sun.com/ja/java/440698-how-to-use-junit-and-hamcrest-together-java-junit-hamcrest.html>)
 1. [インポートされた ★★ は見つかりません](<http://androidfaq.w4c.work/status/87>)
+    - [hamcrest-core.jar](<https://search.maven.org/artifact/org.hamcrest/hamcrest-core/1.3/jar>) の追加も必要だった
