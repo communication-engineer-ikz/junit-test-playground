@@ -7,6 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="lib" path="junit-4.13.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="junit-4.13.2.jar" sourcepath="/var/folders/k_/xzw3452j347b2ffl5lmvp8xc0000gn/T/.org.sf.feeling.decompiler1625972588041/source/junit-4.13.2-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
