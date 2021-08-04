@@ -34,4 +34,22 @@ public class CalculatorTest {
 		Calculator calc = new Calculator();
 		calc.divide(5, 0);
 	}
+
+	@Test
+	public void divideAndRoundDownで6と2の除算結果が取得できる() {
+		Calculator calc = new Calculator();
+		int actual = calc.divideAndRoundDown(6, 2);
+		assertThat(actual, is(3));
+	}
+	@Test
+	public void divideAndRoundDownで3と2の除算結果が小数点以下切り捨てで取得できる() {
+		Calculator calc = new Calculator();
+		int actual = calc.divideAndRoundDown(3, 2);
+		assertThat(actual, is(1));
+	}
+	@Test(expected = IllegalArgumentException.class)
+	public void divideAndRoundDownで5と0のときIllegalArgumentExceptionを送出する() {
+		Calculator calc = new Calculator();
+		calc.divideAndRoundDown(5, 0);
+	}
 }
